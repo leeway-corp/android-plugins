@@ -22,6 +22,8 @@ private fun Provider<PluginDependency>.toDep() = map {
 }
 
 gradlePlugin {
+    website = "https://github.com/leeway-corp/android-plugins"
+    vcsUrl = "https://github.com/leeway-corp/android-plugins"
     plugins {
         create("versionCheck") {
             id = "uz.leeway.android.plugins.version-check"
@@ -32,9 +34,3 @@ gradlePlugin {
         }
     }
 }
-
-
-//pluginBundle {
-//    website = "https://github.com/leeway-corp/android-plugins"
-//    vcsUrl = "https://github.com/leeway-corp/android-plugins"
-//}
