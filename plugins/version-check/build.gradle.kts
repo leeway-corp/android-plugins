@@ -34,7 +34,7 @@ gradlePlugin {
 }
 
 
-pluginBundle {
-    website = "https://github.com/leeway-corp/android-plugins"
-    vcsUrl = "https://github.com/leeway-corp/android-plugins"
-}
+//pluginBundle {
+//    website = "https://github.com/leeway-corp/android-plugins"
+//    vcsUrl = "https://github.com/leeway-corp/android-plugins"
+//}
