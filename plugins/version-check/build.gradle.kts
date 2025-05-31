@@ -30,7 +30,7 @@ gradlePlugin {
             displayName = "Version Check Plugin"
             description = "A plugin to check the version of the gradle dependencies"
             implementationClass = "uz.leeway.plugins.version.VersionCheckPlugin"
-            tags.set(listOf("android", "version", "dependencies", "plugin"))
+            tags.set(listOf("android", "version", "dependencies"))
         }
     }
 }
