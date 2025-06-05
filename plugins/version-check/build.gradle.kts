@@ -4,7 +4,7 @@ plugins {
     id("com.gradle.plugin-publish") version "1.3.1"
 }
 
-group = "uz.leeway.android.plugins"
+group = "io.github.abdulatif1707"
 version = "0.0.1"
 
 repositories {
@@ -26,7 +26,7 @@ gradlePlugin {
     vcsUrl = "https://github.com/leeway-corp/android-plugins"
     plugins {
         create("versionCheck") {
-            id = "uz.leeway.android.plugins.version-check"
+            id = "io.github.abdulatif1707.version-check"
             displayName = "Version Check Plugin"
             description = "A plugin to check the version of the gradle dependencies"
             implementationClass = "uz.leeway.plugins.version.VersionCheckPlugin"
